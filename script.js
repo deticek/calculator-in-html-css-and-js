@@ -31,7 +31,7 @@ function del(){
 function rez() {
     if (!(txt.length < 1)) {
         
-        txt = txt.replace(/π/g, "*3.14");
+        txt = txt.replace(/π/g, "3.14");
 
         var r = eval(txt);
         txt = r;
